@@ -86,7 +86,6 @@ int main ()
 //        dict_init(dict);
 //    }
 //    //SetConsoleOutputCP(65001);
-   
     dict_init(dict);
     dict_display(dict);
     std::string output{encode_input_text(dict)};
